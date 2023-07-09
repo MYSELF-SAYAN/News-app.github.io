@@ -1,0 +1,68 @@
+.Navbar{
+    display: flex;
+    background: #d2e9f6;
+    width: 100%;
+}
+.NavLogo{
+flex: 3;
+display: flex;
+padding: 10px 40px;
+}
+.NavLogo p{
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 1.8rem;
+}
+.NavLogo span{
+    font-family: 'Cedarville Cursive', cursive;
+    color: rgb(166, 62, 62);
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+.NavLists{
+    flex: 3 1;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+   
+}
+.NavListItems:hover{
+    color: rgb(166, 62, 62);
+}
+.NavListUl{
+    display: flex;
+   
+}
+.NavListItems{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px 15px;
+    font-size: 1.6rem;
+    font-weight: 800;
+    cursor: pointer;
+    color: rgb(64, 77, 76);
+}
+
+.NavSearch{
+    flex: 3 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.NavSearchInput{
+    border: 2px solid#1c9ce7;
+    border-radius: 5px;
+    width: 50%;
+    height: 35%;
+}
+.NavSearchButton{
+    width: 25%;
+    height: 40%;
+    background-color: #1c9ce7;
+    color: azure;
+    border: 2px solid#1c9ce7;
+    margin-left: 10px;
+    border-radius: 5px;
+}

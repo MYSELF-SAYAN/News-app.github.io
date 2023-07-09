@@ -1,0 +1,7 @@
+.Sports{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
+    margin-left: 75px;
+    margin-top: 25px;
+ }
